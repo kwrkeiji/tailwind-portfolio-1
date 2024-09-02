@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piangco - Tailwind Website Portfolio</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <header class="bg-red-500 text-white">
+      <div class="container mx-auto flex justify-between items-center py-4">
+        <h1 class="text-4xl font-bold px-5 py-3 rounded-3xl bg-gray-800">P</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="#about" class="text-lg font-bold hover:text-gray-300"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="text-lg font-bold hover:text-gray-300"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="text-lg font-bold hover:text-gray-300"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#services" class="text-xl font-bold hover:text-gray-300"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="text-xl font-bold hover:text-gray-300"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="p-4 flex-grow">
+      <!-- About Section -->
+      <section
+        class="my-8 mx-10 justify-center items-center grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4"
+        id="about"
+      >
+        <img
+          src="images/about.png"
+          alt="piangco kenneth gerald"
+          class="w-1/2 h-auto shadow-lg rounded-full mx-auto"
+        />
+        <div>
+          <h2 class="text-2xl font-semibold">About Me</h2>
+          <p class="text-xl mt-2">Aspiring IT Professional</p>
+          <p class="mt-2 text-justify">
+            I am a 20-year-old first-year student pursuing a Bachelor of Science
+            in Information Technology (BSIT). I am passionate about the field of
+            IT and eager to apply my growing knowledge in practical settings. My
+            academic journey has equipped me with a strong foundation in various
+            aspects of technology, and I am continually seeking opportunities to
+            expand my expertise and gain hands-on experience. I am particularly
+            interested in exploring areas such as software development, network
+            management, and cybersecurity, and I am committed to contributing to
+            innovative projects that challenge and enhance my skills and
+            expertise.
+          </p>
+        </div>
+      </section>
+
+      <!-- My Skills -->
+      <section class="skills my-16 mx-10" id="skills">
+        <h2 class="mt-16 text-2xl font-semibold text-center">My Skills</h2>
+        <div class="mx-[10%]">
+          <p class="text-xl mt-2">Skills Reflects Our Knowledge</p>
+          <p class="mt-2 text-justify">
+            As a first-year BSIT student, I am passionate about Information
+            Technology and committed to applying my academic foundation in
+            practical, real-world settings. My interests lie in software
+            development, network management, and cybersecurity. I am driven to
+            participate in projects that challenge me, allowing me to grow my
+            skills and contribute meaningfully to the field.
+          </p>
+        </div>
+      </section>
+
+      <!-- My Services -->
+      <section class="services my-16 mx-[12%]" id="services">
+        <h2 class="text-2xl font-semibold text-center">My Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          <div class="bg-white p-4 shadow-lg rounded-lg">Web Development</div>
+          <div class="bg-white p-4 shadow-lg rounded-lg">Graphic Design</div>
+          <div class="bg-white p-4 shadow-lg rounded-lg">Video Editing</div>
+          <div class="bg-white p-4 shadow-lg rounded-lg">Technical Support</div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="skills my-16 mx-10" id="skills">
+        <h2 class="mt-16 text-2xl font-semibold text-center">Contact Me</h2>
+        <div class="mx-[10%] text-center">
+          <p class="text-lg mt-2">202210103@gordoncollege.edu.ph</p>
+          <p class="text-lg mt-2">kenneth.piangco.22@gmail.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <p>&copy; 2024 Piangco Tailwind Website Portfolio</p>
+    </footer>
+  </body>
+</html>
